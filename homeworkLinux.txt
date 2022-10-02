@@ -1,0 +1,115 @@
+   0 cd /home/mkdir user1
+   1 cd /home/
+   2 mkdir user1
+   3 ls
+   4 cd user1/
+   5 mkdir task1
+   6 ls
+   7 cd task1
+   8 touch file.txt
+   9 cd ..
+  10 system
+  11 history
+  12 cd /opt
+  13 cd /home/
+  14 tree
+  15 pwd
+  16 mkdir /home/user2/task2
+  17 mkdir -p /home/user2/task2
+  18 mkdir -p /home/user2/task2/
+  19 tree
+  20 cd 
+  21 touch /home/user2/task2/file2.txt
+  22 tree
+  23 tree /home
+  24 mkdir /home/user3 /home/user4 /home/user5 /opt/david
+  25 ls home
+  26 ls /home/
+  27 ls /
+  28 ls /home/
+  29 touch /home/user5/filed
+  30 tree
+  31 tree /home/
+  32 cp /home/user1/task1/file.txt  /tmp/1.txt
+  33 ls /tmp/
+  34 nv /home/user2/task2/file2.txt /tmp/
+  35 mv /home/user2/task2/file2.txt /tmp/
+  36 tree
+  37 tree /home/
+  38 mv /tmp/1.txt  /tmp/2.txt
+  39 ls /tmp/
+  40 rmdir --help
+  41 rm -rf /home/user1
+  42 rm -rf /home/user1/
+  43 history > history.txt
+  44 export_file history.txt
+  45 clear
+  46 cd /home/
+  47 mkdir Animals
+  48 ls
+  49 tree
+  50 ls /home/Animals/
+  51 cd /home/Animals/
+  52 mkdir dogs
+  53 tree
+  54 tree /home/
+  55 mkdir cats
+  56 mkdir fish
+  57 tree /home/
+  58 cd /home/Animals/dogs/
+  59 touch pluto
+  60 cd /home/Animals/
+  61 tree /home/
+  62 cd /home/Animals/cats/
+  63 touch garfield
+  64 cd /home/Animals/fish/
+  65 touch nemo
+  66 cd /home/Animals/
+  67 tree /home/
+  68 tree
+  69 cd /home/
+  70 tree
+  71 cd user2
+  72 rmdir user2
+  73 rmdir task2/
+  74 tree
+  75 cd /home
+  76 rmdir user2
+  77 tree
+  78 rmdir user3
+  79 rmdir user4
+  80 rmdir user5
+  81 rmdir user5/filed 
+  82 cd user5/
+  83 rmdir filed 
+  84 cd /home/
+  85 rmdir user5/
+  86 tree
+  87 cd /home/user5/
+  88 rm filed 
+  89 cd/h
+  90 cd /home/
+  91 rmdir user5/
+  92 tree
+  93 ls /home/Animals/
+  94 ls /home/
+  95 cd /home/tmp
+  96 mkdir tmp
+  97 tree
+  98 cd /home/tmp/
+  99 touch adam
+ 100 tree
+ 101 cd /home/
+ 102 tree
+ 103 mkdir humans
+ 104 tree
+ 105 cd /home/tmp/
+ 106 touch evA
+ 107 tree
+ 108 cd /home/
+ 109 tree
+ 110 cp /home/tmp/adam /home/humans/
+ 111 tree
+ 112 mv /home/tmp/evA /home/humans/eve
+ 113 tree
+ 114 history >homeworkLinux.txt
